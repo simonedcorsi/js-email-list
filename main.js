@@ -8,7 +8,7 @@ let mail = [];
             .then((data) => {
              mail.push(data.response);
 
-             mail.innerHTML(mail)
+             mail.innerHTML(mails)
             })
 }
 .catch(error => {
